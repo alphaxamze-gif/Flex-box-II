@@ -1,3 +1,9 @@
 .hdr{
-    
+    display: flex;
+    gap: 2rem;
 }
+
+#img{
+    object-position: center 15%;
+}
+
