@@ -1,0 +1,44 @@
+.checkout{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.checkout__billing{
+    flex-basis: 50%;
+}
+
+.checkout__billing,
+.checkout__billing--form,
+.checkout__order{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.checkout__billing--form fieldset{
+    display: flex;
+    gap: 1rem;
+}
+
+.checkout__billing--form fieldset input{
+    flex-grow: 1;
+}
+
+.checkout__billing--form__account,
+.checkout__billing--form__shipment{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.checkout__billing--form__account input,
+.checkout__billing--form__shipment input,
+.checkout__billing--form__coupon div input{
+    flex-grow: 0 !important;
+}
+
+.checkout__billing--form__coupon{
+    
+}
+
