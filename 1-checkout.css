@@ -55,7 +55,7 @@ gap: 1rem;
   row-gap: 3rem;
 }
 
-checkuot__order--details{
+.checkuot__order--details{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
@@ -65,8 +65,37 @@ border-radius: 1rem;
 }
 
 
-check__order--details;
+.checkout__order--details >div{
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(224 224 224 / 0.4);
 }
+
+.checkout__order--details__name,
+.checkout__order--details__product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__order--details__name,
+.checkout__order--payment__title{
+    background-color: rgba(224 224 224 / 0.4);
+    padding: 1.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.check__order--details >div div>
 
 
 
