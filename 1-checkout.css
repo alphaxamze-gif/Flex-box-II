@@ -2,11 +2,14 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
+
     padding: 5rem;
 }
 
+
 .checkout__billing{
     flex-basis: 50%;
+
 }
 
 .checkout__billing,
@@ -22,98 +25,92 @@
     gap: 1rem;
 }
 
+
 .checkout__billing--form fieldset input{
     flex-grow: 1;
 }
 
-.checkout__billing--form__account,
-.checkout__billing--form__shipment{
+.checkout_billing--form_account,
+.checkout_billing--form_shipment{
     flex-direction: row-reverse;
     justify-content: flex-end;
 }
 
-.checkout__billing--form__account input,
-.checkout__billing--form__shipment input,
-.checkout__billing--form__coupon div input{
+.checkout_billing--form_account input,
+.checkout_billing--form_shipment input,
+.checkout_billing--form_coupon div input{
     flex-grow: 0 !important;
 }
 
-.checkout__billing--form__coupon{
-  flex-direction:column;
+.checkout_billing--form_coupon{
+    flex-direction: column;
 }
 
-.checkout__billing--form__coupon div {
-display: flex;
-gap: 1rem;
+.checkout_billing--form_coupon div{
+    display: flex;
+    gap: 1rem;
 }
-.checkout__billing--form__coupon div input:last-child{
+
+.checkout_billing--form_coupon div input:first-child{
     background-color: #333;
     color: white;
 }
-.checkout__order {
- flex-basis: 30%;
-  row-gap: 3rem;
+
+
+.checkout__order{
+    flex-basis: 30%;
+
+    row-gap: 3rem;
 }
 
-.checkuot__order--details{
+.checkout__order--details{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
 
-border: 1px solid rgba(224 224 224 / 0.4);
-border-radius: 1rem;
+    border: 1px solid rgb(224 224 224 / 0.4);
+    border-radius: 1rem;
 }
 
-
-.checkout__order--details >div{
+.checkout__order--details > div{
     padding: 1.5rem;
-    border-bottom: 1px solid rgba(224 224 224 / 0.4);
+    border-bottom: 1px solid rgb(224 224 224 / 0.4);
 }
 
-.checkout__order--details__name,
-.checkout__order--details__product{
+.checkout_order--details_name,
+.checkout_order--details_product{
     display: flex;
     justify-content: space-between;
 }
 
-.checkout__order--details__name,
-.checkout__order--payment__title{
-    background-color: rgba(224 224 224 / 0.4);
+.checkout_order--details_name,
+.checkout_order--payment_title{
+    background-color: rgb(224 224 224 / 0.4,);
     padding: 1.5rem;
     border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
-
-.check__order--details__product >div{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.checkout_order--details_product > div {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
 }
 
-
-
-.check__order--details__product >div> div>{
+.checkout_order--details_product > div > div {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.check__order--details__product >div >div div>{
+.checkout_order--details_product > div > div > div {
     display: flex;
     gap: 2rem;
 }
 
-.checkout__order--details__product--img{
+.checkout_order--details_product--img{
     height: 8rem;
-    width: 8rem;
+    gap: 8rem;
 }
 
-
-
-
-
-
-
-
-
+.checkout_order--details_product--img
