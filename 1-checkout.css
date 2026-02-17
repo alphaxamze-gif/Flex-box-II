@@ -82,16 +82,14 @@ border-radius: 1rem;
     padding: 1.5rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-
 }
 
 
-
-
-
-
-
-
+.check__order--details >div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
 
 
