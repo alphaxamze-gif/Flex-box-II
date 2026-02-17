@@ -85,7 +85,7 @@ border-radius: 1rem;
 }
 
 
-.check__order--details >div{
+.check__order--details__product >div{
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -93,7 +93,25 @@ border-radius: 1rem;
 
 
 
-.check__order--details >div div>
+.check__order--details__product >div> div>{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.check__order--details__product >div >div div>{
+    display: flex;
+    gap: 2rem;
+}
+
+.checkout__order--details__product--img{
+    height: 8rem;
+    width: 8rem;
+}
+
+
+
+
 
 
 
