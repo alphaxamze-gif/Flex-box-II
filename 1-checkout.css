@@ -127,14 +127,14 @@
     align-self: center;
 }
 
-.checkout__order--details__cost{
+.checkout_order--details_cost{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.checkout__order--details__cost > div,
-.checkout__order--details__total {
+.checkout_order--details_cost > div,
+.checkout_order--details_total {
     display: flex;
     justify-content: space-between;
 }
@@ -148,7 +148,7 @@
     border-radius: 1rem;
 }
 
-.checkout__order--payment__form{
+.checkout_order--payment_form{
     padding: 1.5rem;
 
     display: flex;
@@ -156,7 +156,7 @@
     gap: 2rem;
 }
 
-.checkout__order--payment__form fieldset{
+.checkout_order--payment_form fieldset{
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
